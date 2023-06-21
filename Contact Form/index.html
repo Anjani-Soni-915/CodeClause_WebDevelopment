@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with Captcha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-form">
+        <div class="form-title">
+            Contact Page ☎️
+        </div>
+        <div class="form-input">
+            <label for="username">Username 📝</label>
+            <input type="text" id="username">
+        </div>
+
+        <div class="form-input">
+            <label for="email">E-mail 📧</label>
+            <input type="text" id="email">
+        </div>
+        
+        <div class="form-input">
+            <label for="message">Message 📩</label>
+            <input type="text" id="message">
+        </div>
+
+        <div class="captcha">
+            <label for="captcha-input">Enter the captcha ✏️</label>
+            <div class="preview"></div>
+            <div class="captcha-form">
+                <input type="text" id="captcha-form" placeholder="Enter Captcha Text">
+                <button class="captcha-refresh"> 
+                    <i class="fa fa-refresh">🔃</i>
+                </button>
+            </div>
+        </div>
+        <div class="form-input">
+            <button id="login-btn">Send Message ⬆️</button>
+        </div>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+
+</html>
